@@ -152,37 +152,49 @@ export default function Login() {
                 onClick={() => handleSeedFill("borrower@creditsea.com", "Borrower@123")}
                 className="py-2 px-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-slate-300 text-left transition-all hover:border-slate-700"
               >
-                <strong>Borrower:</strong> borrower@creditsea.com
+                <strong className="block text-teal-400">Borrower</strong>
+                <span className="block text-[11px] text-slate-400">borrower@creditsea.com</span>
+                <span className="block text-[10px] text-slate-500 font-mono mt-0.5">Pass: Borrower@123</span>
               </button>
               <button
                 onClick={() => handleSeedFill("admin@creditsea.com", "Admin@123")}
                 className="py-2 px-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-slate-300 text-left transition-all hover:border-slate-700"
               >
-                <strong>Admin:</strong> admin@creditsea.com
+                <strong className="block text-teal-400">Admin</strong>
+                <span className="block text-[11px] text-slate-400">admin@creditsea.com</span>
+                <span className="block text-[10px] text-slate-500 font-mono mt-0.5">Pass: Admin@123</span>
               </button>
               <button
                 onClick={() => handleSeedFill("sales@creditsea.com", "Sales@123")}
                 className="py-2 px-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-slate-300 text-left transition-all hover:border-slate-700"
               >
-                <strong>Sales:</strong> sales@creditsea.com
+                <strong className="block text-teal-400">Sales</strong>
+                <span className="block text-[11px] text-slate-400">sales@creditsea.com</span>
+                <span className="block text-[10px] text-slate-500 font-mono mt-0.5">Pass: Sales@123</span>
               </button>
               <button
                 onClick={() => handleSeedFill("sanction@creditsea.com", "Sanction@123")}
                 className="py-2 px-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-slate-300 text-left transition-all hover:border-slate-700"
               >
-                <strong>Sanction:</strong> sanction@creditsea.com
+                <strong className="block text-teal-400">Sanction</strong>
+                <span className="block text-[11px] text-slate-400">sanction@creditsea.com</span>
+                <span className="block text-[10px] text-slate-500 font-mono mt-0.5">Pass: Sanction@123</span>
               </button>
               <button
                 onClick={() => handleSeedFill("disburse@creditsea.com", "Disburse@123")}
                 className="py-2 px-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-slate-300 text-left transition-all hover:border-slate-700"
               >
-                <strong>Disburse:</strong> disburse@creditsea.com
+                <strong className="block text-teal-400">Disbursement</strong>
+                <span className="block text-[11px] text-slate-400">disburse@creditsea.com</span>
+                <span className="block text-[10px] text-slate-500 font-mono mt-0.5">Pass: Disburse@123</span>
               </button>
               <button
                 onClick={() => handleSeedFill("collect@creditsea.com", "Collect@123")}
                 className="py-2 px-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-slate-300 text-left transition-all hover:border-slate-700"
               >
-                <strong>Collection:</strong> collect@creditsea.com
+                <strong className="block text-teal-400">Collection</strong>
+                <span className="block text-[11px] text-slate-400">collect@creditsea.com</span>
+                <span className="block text-[10px] text-slate-500 font-mono mt-0.5">Pass: Collect@123</span>
               </button>
             </div>
           </div>
